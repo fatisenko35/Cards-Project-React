@@ -1,10 +1,9 @@
-import reactLogo from "../../assets/react.svg";
-import "./Header.css"
+import React from 'react'
+
 const Header = () => {
-    return (
-        <div className="logo-container">
-            <img className="react-logo" src={reactLogo} alt= "react-logo"></img>
-        </div>
-    )
+  return (
+    <div>Header</div>
+  )
 }
-export default Header;
+
+export default Header
