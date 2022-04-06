@@ -1,5 +1,5 @@
 .code{
-   width: 500px; 
+   max-width: 500px; 
 }
 .wrapper-about{
    background-color: #00ADB5;
@@ -39,4 +39,16 @@
 }
 .email{
 color: #fff;
+}
+@media (max-width: 768px){
+   .code{
+      max-width: 350px;
+   }
+
+}
+@media (max-width: 500px){
+   .code{
+      max-width: 250px;
+   }
+
 }

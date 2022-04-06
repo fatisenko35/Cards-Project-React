@@ -25,7 +25,7 @@
     background-color: #00acb584;
     background-position: 0% 0%;
     border: 2px solid #E1F1DD;
-    min-width: 600px;
+    width: 600px;
     max-height:600px;
     border-radius: 50%;
     padding:5px;
@@ -66,4 +66,50 @@ button{
     border: none;
     border-radius: 5px;
    
+}
+
+@media (max-width: 500px){
+    .container2{
+        max-width: 400px;
+        max-height: 400px;
+    }
+  
+    .container2 img {
+        margin: 0.5rem;
+        height: auto;
+    }
+    .head{
+        color: #FFF;
+        font-size: 1rem;
+        margin:2rem 0;
+        height:auto;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+       
+        
+      
+       
+    }
+    form input{
+        margin:0.5rem;
+        padding: 1px 2px;
+        height:50px;
+        width: 150px;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button{
+        margin:0.5rem;
+        padding:5px 3px;
+        border: none;
+        border-radius: 5px;
+        height:50px;
+        width: 150px;
+       
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import meal from "../../assets/meal2.svg";
+import "./Details.css"
 const Details = ({item, i}) => {
   return (
     <div>
@@ -27,7 +28,7 @@ const Details = ({item, i}) => {
             }
           </div>
           <div>
-          <img src={item.recipe.image} alt="" />
+          <img className="details-image" src={item.recipe.image} alt="" />
           </div>
           <div className="details-right">
             {
